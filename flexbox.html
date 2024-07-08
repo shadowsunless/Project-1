@@ -1,0 +1,37 @@
+<!--how to moblie responsive pages that make the options wrap if there isnt enough space in html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flex</title>
+        <link rel="stylesheet" href="variables.scss">
+        <style>
+            #container{
+                display: flex;
+                flex-wrap: wrap;
+               
+            }
+
+            #container > div{
+                
+                font-size: 30px;
+                margin: 10px;
+                padding: 20px;
+                width: 200px;
+            }
+        </style>
+        </head>
+        <body> 
+            <div id="container">
+                <div>1. This is a sample test for flexbox</div>
+                <div>2. This is a sample test for flexbox</div>
+                <div>3. This is a sample test for flexbox</div>
+                <div>4. This is a sample test for flexbox</div>
+                <div>5. This is a sample test for flexbox</div>
+                <div>6. This is a sample test for flexbox</div>
+                <div>7. This is a sample test for flexbox</div>
+                <div>8. This is a sample test for flexbox</div>
+         </div>
+     </body>
+</html>
+<!--seem to have encountered an issue i dont understand-->
+<!--done as it turned out there was a space just before i wrote container as id-->
